@@ -1,0 +1,189 @@
+
+ *{
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f4f1ea;
+color: #2f2f2f;
+line-height: 1.5;
+}
+
+header {
+background-color: #ffffff;
+border-bottom: 1px solid #ddd6ca;
+padding: 1.5rem;
+}
+
+header h1 {
+max-width: 900px;
+margin: 0 auto 1rem;
+font-size: 1.8rem;
+}
+
+nav {
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+gap: 0.6rem;
+}
+
+nav a {
+color: #3f4f46;
+text-decoration: none;
+padding: 0.5rem 0.8rem;
+border-radius: 6px;
+}
+
+nav a:hover {
+background-color: #e8eee9;
+}
+
+nav a:focus {
+outline: 2px solid #3f4f46;
+outline-offset: 2px;
+}
+
+main {
+max-width: 900px;
+margin: 2rem auto;
+padding: 0 1rem;
+}
+
+section {
+background-color: #ffffff;
+border: 1px solid #ddd6ca;
+border-radius: 10px;
+padding: 1.5rem;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+margin-top: 0;
+color: #3f4f46;
+}
+
+a {
+color: #4f6659;
+}
+
+a:hover {
+color: #2f4036;
+}
+
+form {
+max-width: 600px;
+}
+
+form div {
+margin-bottom: 1rem;
+}
+
+label {
+display: block;
+margin-bottom: 0.35rem;
+font-weight: bold;
+}
+
+input,
+select {
+width: 100%;
+padding: 0.7rem;
+border: 1px solid #c8c1b7;
+border-radius: 6px;
+background-color: #fff;
+font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+outline: 2px solid #687d70;
+outline-offset: 2px;
+border-color: #687d70;
+}
+
+button {
+padding: 0.7rem 1rem;
+border: none;
+border-radius: 6px;
+background-color: #3f4f46;
+color: #ffffff;
+font-size: 1rem;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #2f4036;
+}
+
+button:focus {
+outline: 2px solid #3f4f46;
+outline-offset: 3px;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 1.5rem 0 0;
+}
+
+li {
+background-color: #faf9f6;
+border: 1px solid #ddd6ca;
+border-radius: 8px;
+padding: 1rem;
+margin-bottom: 1rem;
+}
+
+li strong {
+font-size: 1.1rem;
+color: #3f4f46;
+}
+
+li p {
+margin: 0.5rem 0 0.8rem;
+}
+
+[role="alert"] {
+background-color: #fff1f1;
+border: 1px solid #d99;
+border-radius: 6px;
+padding: 0.8rem;
+color: #8a3030;
+margin-bottom: 1rem;
+}
+
+footer {
+max-width: 900px;
+margin: 2rem auto;
+padding: 1rem;
+border-top: 1px solid #ddd6ca;
+color: #777;
+font-size: 0.9rem;
+}
+
+footer p {
+margin: 0;
+}
+
+@media (max-width: 600px) {
+header h1 {
+font-size: 1.4rem;
+}
+
+nav {
+flex-direction: column;
+align-items: flex-start;
+}
+
+main {
+margin-top: 1rem;
+}
+
+section {
+padding: 1rem;
+}
+}
